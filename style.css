@@ -54,7 +54,7 @@ video#bgvid {
     background-size: cover;
 }
 
-@media screen and (max-width: 992px) {
+@media only screen and (max-width: 992px) {
 
     .header {
         background-image: url(http://theme.co/media/x-home-main-header-3-bg.jpg);
