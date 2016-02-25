@@ -136,3 +136,14 @@ video.fillWidth {
 .infos {
     padding: 2% !important;
 }
+.video:hover {
+    cursor: pointer;
+}
+
+.video:hover .picture img{
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+}
