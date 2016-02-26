@@ -97,7 +97,7 @@ body {
     text-align: center;
     border-left: 1px solid #616161;
     box-shadow: -1px 0 0 0 rgba(255, 255, 255, 0.065), inset -1px 0 0 0 rgba(255, 255, 255, 0.065);
-    width: 10%;
+    width: 11%;
 }
 
 .side-nav a {
@@ -273,4 +273,28 @@ video.fillWidth {
 .infos .titre h2 {
 
     font-size: 25px;
+}
+
+.category {
+    width: 100% !important;
+    left: 0 !important;
+    top: 2% !important;
+}
+
+.category .larg {
+    width: 10%;
+    clear: none !important;
+    height: 64px;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+    color: #4593BC !important;
+}
+
+.input-field input[type=search] ~ .material-icons {
+    color: #4593BC !important;
+}
+
+.input-field input[type=search]:focus {
+    color: #4593BC !important;
 }
